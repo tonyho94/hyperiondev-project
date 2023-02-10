@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'AvenirHeavy';
+    src: url('C:\Users\TonyH\Downloads\FETest2020\fonts\Avenir-Heavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'AvenirLight';
+    src: url('Avenir-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'AvenirMedium';
+    src: url('C:\Users\TonyH\Downloads\FETest2020\fonts\Avenir-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'AvenirNext';
+    src: url('Avenir-Next.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'AvenirNextBold';
+    src: url('avenir-next-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'AvenirMedium', sans-serif !important;
+    font-size: 0.875rem !important;
+}
+
+h5 {
+    font-size: 1rem !important;
+}
+
+h4 {
+    font-size: 1.125rem !important;
+}
+
+h5,
+h4 {
+    font-weight: bold !important;
+}
+
+.bg-orange {
+    background-color: #fc7303 !important;
+}
+
+.text-orange {
+    color: #fc7303 !important;
+}
+
+.profile-btn {
+    width: 120px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-menu {
+    min-width: 8rem !important;
+}
+
+.progression-panel {
+    padding: 3rem 2rem;
+    background-color: white;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+
+.continue-trial-btn {
+    background-color: #fc7303;
+    color: white !important;
+    max-width: 215px;
+    font-weight: bold !important;
+    font-size: 14px !important;
+}
+
+.progression-btn,
+.info-btn {
+    font-weight: bold !important;
+    border-color: #fc7303 !important;
+    color: #fc7303 !important;
+    margin: 0.25rem !important;
+}
+
+.progression-btn {
+    width: 100%;
+}
+
+.trial-another-title {
+    padding: 2rem;
+}
+
+.trial-another-img {
+    height: 75px;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        max-width: 322px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .continue-trial-img {
+        height: 35px;
+    }
+}
