@@ -55,6 +55,13 @@ h4 {
     width: 120px;
 }
 
+.profile-img {
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
 .dropdown-toggle::after {
     display: none !important;
 }
